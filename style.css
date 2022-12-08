@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+/*
+colors
+yellow: #F4B400;
+blue: #4285F4;
+*/
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #F4B400;
+}
+
+h4{
+    color: #4285F4;
+}
+
+h6{
+    color: #F4B400;
+}
+.result{
+    color: #F4B400;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-image: url(./Images/bg-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
