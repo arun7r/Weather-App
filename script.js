@@ -2,7 +2,7 @@ const search =()=>{
     country = loc.value; //location
     console.log("location:",country);
     
-    fetch(`http://api.weatherapi.com/v1/current.json?key=ca3fdbc117be41b89b5120101230301&q=${country}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=ca3fdbc117be41b89b5120101230301&q=${country}`)
         .then(res => res.json())
     .then(data => displayData(data)) //2nd function call
 
