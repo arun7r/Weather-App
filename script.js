@@ -51,7 +51,3 @@ const displayData =(weatherData)=> {
         </div>
     `
 }
-
-const clear=()=>{
-    document.getElementById('loc').value="";
-}
